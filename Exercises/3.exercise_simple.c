@@ -1,2 +1,11 @@
-// Take a single character  as input, you may benefit from scanf("%c", &ch ); and print("%c", ch) to print the character. 
-// Write a program to print the ASCII value of the given character.
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+
+int main() {
+    char a;
+    printf("karakter giriniz.");
+    scanf("%c",&a);
+    printf("girilen karakterin ASCİİ karsiligi %c=%d",a,a);
+    return 0;
+}
